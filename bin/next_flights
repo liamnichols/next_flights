@@ -3,4 +3,4 @@
 require "bundler/setup"
 require "next_flights"
 
-NextFlights::CLI.new.call
+NextFlights::CLI.start(ARGV)

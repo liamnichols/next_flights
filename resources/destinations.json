@@ -1,0 +1,1181 @@
+{
+  "meta": {
+    "count": 53,
+    "links": {
+      "self": "https://api.amadeus.com/v1/airline/destinations?airlineCode=ME"
+    }
+  },
+  "data": [
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "LONDON",
+      "iataCode": "LON",
+      "geoCode": {
+        "latitude": 51.5,
+        "longitude": -0.16666
+      },
+      "address": {
+        "countryName": "UNITED KINGDOM",
+        "countryCode": "GB",
+        "regionCode": "EUROP"
+      },
+      "timeZone": {
+        "offSet": "+01:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 100
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "PARIS",
+      "iataCode": "PAR",
+      "geoCode": {
+        "latitude": 48.85334,
+        "longitude": 2.34889
+      },
+      "address": {
+        "countryName": "FRANCE",
+        "countryCode": "FR",
+        "regionCode": "EUROP"
+      },
+      "timeZone": {
+        "offSet": "+02:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 90
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "DUBAI",
+      "iataCode": "DXB",
+      "geoCode": {
+        "latitude": 25.25278,
+        "longitude": 55.36445
+      },
+      "address": {
+        "countryName": "UNITED ARAB EMIRATES",
+        "countryCode": "AE",
+        "regionCode": "MEAST"
+      },
+      "timeZone": {
+        "offSet": "+04:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 57
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "MADRID",
+      "iataCode": "MAD",
+      "geoCode": {
+        "latitude": 40.49195,
+        "longitude": -3.56944
+      },
+      "address": {
+        "countryName": "SPAIN",
+        "countryCode": "ES",
+        "regionCode": "EUROP"
+      },
+      "timeZone": {
+        "offSet": "+02:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 55
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "FRANKFURT",
+      "iataCode": "FRA",
+      "geoCode": {
+        "latitude": 50.04056,
+        "longitude": 8.55612
+      },
+      "address": {
+        "countryName": "GERMANY",
+        "countryCode": "DE",
+        "regionCode": "EUROP"
+      },
+      "timeZone": {
+        "offSet": "+02:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 52
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "TORONTO",
+      "iataCode": "YTO",
+      "geoCode": {
+        "latitude": 43.7,
+        "longitude": -79.41638
+      },
+      "address": {
+        "countryName": "CANADA",
+        "countryCode": "CA",
+        "stateCode": "ON",
+        "regionCode": "NAMER"
+      },
+      "timeZone": {
+        "offSet": "-04:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 47
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "CAIRO",
+      "iataCode": "CAI",
+      "geoCode": {
+        "latitude": 30.12195,
+        "longitude": 31.40556
+      },
+      "address": {
+        "countryName": "EGYPT",
+        "countryCode": "EG",
+        "regionCode": "AFRIC"
+      },
+      "timeZone": {
+        "offSet": "+03:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 39
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "ISTANBUL",
+      "iataCode": "IST",
+      "geoCode": {
+        "latitude": 41.26278,
+        "longitude": 28.74223
+      },
+      "address": {
+        "countryName": "TURKIYE",
+        "countryCode": "TR",
+        "regionCode": "EURAS"
+      },
+      "timeZone": {
+        "offSet": "+03:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 39
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "RIYADH",
+      "iataCode": "RUH",
+      "geoCode": {
+        "latitude": 24.95778,
+        "longitude": 46.69889
+      },
+      "address": {
+        "countryName": "SAUDI ARABIA",
+        "countryCode": "SA",
+        "regionCode": "MEAST"
+      },
+      "timeZone": {
+        "offSet": "+03:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 32
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "JEDDAH",
+      "iataCode": "JED",
+      "geoCode": {
+        "latitude": 21.67945,
+        "longitude": 39.15667
+      },
+      "address": {
+        "countryName": "SAUDI ARABIA",
+        "countryCode": "SA",
+        "regionCode": "MEAST"
+      },
+      "timeZone": {
+        "offSet": "+03:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 31
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "ROME",
+      "iataCode": "ROM",
+      "geoCode": {
+        "latitude": 41.89195,
+        "longitude": 12.51139
+      },
+      "address": {
+        "countryName": "ITALY",
+        "countryCode": "IT",
+        "regionCode": "EUROP"
+      },
+      "timeZone": {
+        "offSet": "+02:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 30
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "MILAN",
+      "iataCode": "MIL",
+      "geoCode": {
+        "latitude": 45.46417,
+        "longitude": 9.18945
+      },
+      "address": {
+        "countryName": "ITALY",
+        "countryCode": "IT",
+        "regionCode": "EUROP"
+      },
+      "timeZone": {
+        "offSet": "+02:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 29
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "BARCELONA",
+      "iataCode": "BCN",
+      "geoCode": {
+        "latitude": 41.29695,
+        "longitude": 2.07834
+      },
+      "address": {
+        "countryName": "SPAIN",
+        "countryCode": "ES",
+        "regionCode": "EUROP"
+      },
+      "timeZone": {
+        "offSet": "+02:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 28
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "COPENHAGEN",
+      "iataCode": "CPH",
+      "geoCode": {
+        "latitude": 55.61806,
+        "longitude": 12.65584
+      },
+      "address": {
+        "countryName": "DENMARK",
+        "countryCode": "DK",
+        "regionCode": "EUROP"
+      },
+      "timeZone": {
+        "offSet": "+02:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 28
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "SYDNEY",
+      "iataCode": "SYD",
+      "geoCode": {
+        "latitude": -33.94611,
+        "longitude": 151.1772
+      },
+      "address": {
+        "countryName": "AUSTRALIA",
+        "countryCode": "AU",
+        "stateCode": "NS",
+        "regionCode": "AUSTL"
+      },
+      "timeZone": {
+        "offSet": "+10:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 23
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "BRUSSELS",
+      "iataCode": "BRU",
+      "geoCode": {
+        "latitude": 50.90139,
+        "longitude": 4.48445
+      },
+      "address": {
+        "countryName": "BELGIUM",
+        "countryCode": "BE",
+        "regionCode": "EUROP"
+      },
+      "timeZone": {
+        "offSet": "+02:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 21
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "DOHA",
+      "iataCode": "DOH",
+      "geoCode": {
+        "latitude": 25.26486,
+        "longitude": 51.56356
+      },
+      "address": {
+        "countryName": "QATAR",
+        "countryCode": "QA",
+        "regionCode": "MEAST"
+      },
+      "timeZone": {
+        "offSet": "+03:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 19
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "MONTREAL",
+      "iataCode": "YMQ",
+      "geoCode": {
+        "latitude": 45.50889,
+        "longitude": -73.58777
+      },
+      "address": {
+        "countryName": "CANADA",
+        "countryCode": "CA",
+        "stateCode": "QC",
+        "regionCode": "NAMER"
+      },
+      "timeZone": {
+        "offSet": "-04:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 18
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "MELBOURNE",
+      "iataCode": "MEL",
+      "geoCode": {
+        "latitude": -37.67333,
+        "longitude": 144.8433
+      },
+      "address": {
+        "countryName": "AUSTRALIA",
+        "countryCode": "AU",
+        "stateCode": "VI",
+        "regionCode": "AUSTL"
+      },
+      "timeZone": {
+        "offSet": "+10:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 17
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "DUESSELDORF",
+      "iataCode": "DUS",
+      "geoCode": {
+        "latitude": 51.28056,
+        "longitude": 6.76723
+      },
+      "address": {
+        "countryName": "GERMANY",
+        "countryCode": "DE",
+        "regionCode": "EUROP"
+      },
+      "timeZone": {
+        "offSet": "+02:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 16
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "ATHENS",
+      "iataCode": "ATH",
+      "geoCode": {
+        "latitude": 37.93639,
+        "longitude": 23.94445
+      },
+      "address": {
+        "countryName": "GREECE",
+        "countryCode": "GR",
+        "regionCode": "EUROP"
+      },
+      "timeZone": {
+        "offSet": "+03:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 14
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "CALGARY",
+      "iataCode": "YYC",
+      "geoCode": {
+        "latitude": 51.12945,
+        "longitude": -114.0131
+      },
+      "address": {
+        "countryName": "CANADA",
+        "countryCode": "CA",
+        "stateCode": "AB",
+        "regionCode": "NAMER"
+      },
+      "timeZone": {
+        "offSet": "-06:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 14
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "GENEVA",
+      "iataCode": "GVA",
+      "geoCode": {
+        "latitude": 46.23806,
+        "longitude": 6.10889
+      },
+      "address": {
+        "countryName": "SWITZERLAND",
+        "countryCode": "CH",
+        "regionCode": "EUROP"
+      },
+      "timeZone": {
+        "offSet": "+02:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 11
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "KUWAIT",
+      "iataCode": "KWI",
+      "geoCode": {
+        "latitude": 29.22667,
+        "longitude": 47.96889
+      },
+      "address": {
+        "countryName": "KUWAIT",
+        "countryCode": "KW",
+        "regionCode": "MEAST"
+      },
+      "timeZone": {
+        "offSet": "+03:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 11
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "BEIRUT",
+      "iataCode": "BEY",
+      "geoCode": {
+        "latitude": 33.82084,
+        "longitude": 35.48834
+      },
+      "address": {
+        "countryName": "LEBANON",
+        "countryCode": "LB",
+        "regionCode": "MEAST"
+      },
+      "timeZone": {
+        "offSet": "+03:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 10
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "DAMMAM",
+      "iataCode": "DMM",
+      "geoCode": {
+        "latitude": 26.47112,
+        "longitude": 49.79778
+      },
+      "address": {
+        "countryName": "SAUDI ARABIA",
+        "countryCode": "SA",
+        "regionCode": "MEAST"
+      },
+      "timeZone": {
+        "offSet": "+03:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 10
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "PALMA DE MALLORCA",
+      "iataCode": "PMI",
+      "geoCode": {
+        "latitude": 39.55,
+        "longitude": 2.73306
+      },
+      "address": {
+        "countryName": "SPAIN",
+        "countryCode": "ES",
+        "regionCode": "EUROP"
+      },
+      "timeZone": {
+        "offSet": "+02:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 9
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "AMMAN",
+      "iataCode": "AMM",
+      "geoCode": {
+        "latitude": 31.7225,
+        "longitude": 35.99334
+      },
+      "address": {
+        "countryName": "JORDAN",
+        "countryCode": "JO",
+        "regionCode": "MEAST"
+      },
+      "timeZone": {
+        "offSet": "+03:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 9
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "ABU DHABI",
+      "iataCode": "AUH",
+      "geoCode": {
+        "latitude": 24.43306,
+        "longitude": 54.65112
+      },
+      "address": {
+        "countryName": "UNITED ARAB EMIRATES",
+        "countryCode": "AE",
+        "regionCode": "MEAST"
+      },
+      "timeZone": {
+        "offSet": "+04:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 9
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "PRAGUE",
+      "iataCode": "PRG",
+      "geoCode": {
+        "latitude": 50.10084,
+        "longitude": 14.26
+      },
+      "address": {
+        "countryName": "CZECHIA",
+        "countryCode": "CZ",
+        "regionCode": "EEURO"
+      },
+      "timeZone": {
+        "offSet": "+02:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 9
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "BUCHAREST",
+      "iataCode": "BUH",
+      "geoCode": {
+        "latitude": 44.5,
+        "longitude": 26.08
+      },
+      "address": {
+        "countryName": "ROMANIA",
+        "countryCode": "RO",
+        "regionCode": "EEURO"
+      },
+      "timeZone": {
+        "offSet": "+03:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 9
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "NICE",
+      "iataCode": "NCE",
+      "geoCode": {
+        "latitude": 43.65834,
+        "longitude": 7.21584
+      },
+      "address": {
+        "countryName": "FRANCE",
+        "countryCode": "FR",
+        "regionCode": "EUROP"
+      },
+      "timeZone": {
+        "offSet": "+02:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 9
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "MALAGA",
+      "iataCode": "AGP",
+      "geoCode": {
+        "latitude": 36.675,
+        "longitude": -4.49916
+      },
+      "address": {
+        "countryName": "SPAIN",
+        "countryCode": "ES",
+        "regionCode": "EUROP"
+      },
+      "timeZone": {
+        "offSet": "+02:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 8
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "VENICE",
+      "iataCode": "VCE",
+      "geoCode": {
+        "latitude": 45.505,
+        "longitude": 12.34139
+      },
+      "address": {
+        "countryName": "ITALY",
+        "countryCode": "IT",
+        "regionCode": "EUROP"
+      },
+      "timeZone": {
+        "offSet": "+02:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 8
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "MADINAH",
+      "iataCode": "MED",
+      "geoCode": {
+        "latitude": 24.54528,
+        "longitude": 39.70084
+      },
+      "address": {
+        "countryName": "SAUDI ARABIA",
+        "countryCode": "SA",
+        "regionCode": "MEAST"
+      },
+      "timeZone": {
+        "offSet": "+03:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 7
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "LAGOS",
+      "iataCode": "LOS",
+      "geoCode": {
+        "latitude": 6.5775,
+        "longitude": 3.32112
+      },
+      "address": {
+        "countryName": "NIGERIA",
+        "countryCode": "NG",
+        "regionCode": "AFRIC"
+      },
+      "timeZone": {
+        "offSet": "+01:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 7
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "BOLOGNA",
+      "iataCode": "BLQ",
+      "geoCode": {
+        "latitude": 44.53556,
+        "longitude": 11.28862
+      },
+      "address": {
+        "countryName": "ITALY",
+        "countryCode": "IT",
+        "regionCode": "EUROP"
+      },
+      "timeZone": {
+        "offSet": "+02:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 5
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "VALENCIA",
+      "iataCode": "VLC",
+      "geoCode": {
+        "latitude": 39.48945,
+        "longitude": -0.48166
+      },
+      "address": {
+        "countryName": "SPAIN",
+        "countryCode": "ES",
+        "regionCode": "EUROP"
+      },
+      "timeZone": {
+        "offSet": "+02:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 4
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "ABIDJAN",
+      "iataCode": "ABJ",
+      "geoCode": {
+        "latitude": 5.26139,
+        "longitude": -3.92638
+      },
+      "address": {
+        "countryName": "COTE D IVOIRE",
+        "countryCode": "CI",
+        "regionCode": "AFRIC"
+      },
+      "timeZone": {
+        "offSet": "+00:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 4
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "MUSCAT",
+      "iataCode": "MCT",
+      "geoCode": {
+        "latitude": 23.60084,
+        "longitude": 58.28612
+      },
+      "address": {
+        "countryName": "OMAN",
+        "countryCode": "OM",
+        "regionCode": "MEAST"
+      },
+      "timeZone": {
+        "offSet": "+04:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 4
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "NAPLES",
+      "iataCode": "NAP",
+      "geoCode": {
+        "latitude": 40.88612,
+        "longitude": 14.29084
+      },
+      "address": {
+        "countryName": "ITALY",
+        "countryCode": "IT",
+        "regionCode": "EUROP"
+      },
+      "timeZone": {
+        "offSet": "+02:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 4
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "ACCRA",
+      "iataCode": "ACC",
+      "geoCode": {
+        "latitude": 5.60528,
+        "longitude": -0.16666
+      },
+      "address": {
+        "countryName": "GHANA",
+        "countryCode": "GH",
+        "regionCode": "AFRIC"
+      },
+      "timeZone": {
+        "offSet": "+00:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 4
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "CATANIA",
+      "iataCode": "CTA",
+      "geoCode": {
+        "latitude": 37.46667,
+        "longitude": 15.06639
+      },
+      "address": {
+        "countryName": "ITALY",
+        "countryCode": "IT",
+        "regionCode": "EUROP"
+      },
+      "timeZone": {
+        "offSet": "+02:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 3
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "TBILISI",
+      "iataCode": "TBS",
+      "geoCode": {
+        "latitude": 41.66945,
+        "longitude": 44.95473
+      },
+      "address": {
+        "countryName": "GEORGIA",
+        "countryCode": "GE",
+        "regionCode": "EURAS"
+      },
+      "timeZone": {
+        "offSet": "+04:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 3
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "LARNACA",
+      "iataCode": "LCA",
+      "geoCode": {
+        "latitude": 34.875,
+        "longitude": 33.62473
+      },
+      "address": {
+        "countryName": "CYPRUS",
+        "countryCode": "CY",
+        "regionCode": "EUROP"
+      },
+      "timeZone": {
+        "offSet": "+03:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 3
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "FLORENCE",
+      "iataCode": "FLR",
+      "geoCode": {
+        "latitude": 43.81,
+        "longitude": 11.205
+      },
+      "address": {
+        "countryName": "ITALY",
+        "countryCode": "IT",
+        "regionCode": "EUROP"
+      },
+      "timeZone": {
+        "offSet": "+02:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 3
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "PALERMO",
+      "iataCode": "PMO",
+      "geoCode": {
+        "latitude": 38.17584,
+        "longitude": 13.09112
+      },
+      "address": {
+        "countryName": "ITALY",
+        "countryCode": "IT",
+        "regionCode": "EUROP"
+      },
+      "timeZone": {
+        "offSet": "+02:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 2
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "YEREVAN",
+      "iataCode": "EVN",
+      "geoCode": {
+        "latitude": 40.1525,
+        "longitude": 44.40223
+      },
+      "address": {
+        "countryName": "ARMENIA",
+        "countryCode": "AM",
+        "regionCode": "EURAS"
+      },
+      "timeZone": {
+        "offSet": "+04:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 1
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "BAGHDAD",
+      "iataCode": "BGW",
+      "geoCode": {
+        "latitude": 33.25862,
+        "longitude": 44.23278
+      },
+      "address": {
+        "countryName": "IRAQ",
+        "countryCode": "IQ",
+        "regionCode": "MEAST"
+      },
+      "timeZone": {
+        "offSet": "+03:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 1
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "ERBIL",
+      "iataCode": "EBL",
+      "geoCode": {
+        "latitude": 36.23001,
+        "longitude": 43.97
+      },
+      "address": {
+        "countryName": "IRAQ",
+        "countryCode": "IQ",
+        "regionCode": "MEAST"
+      },
+      "timeZone": {
+        "offSet": "+03:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 1
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "BASRAH",
+      "iataCode": "BSR",
+      "geoCode": {
+        "latitude": 30.55223,
+        "longitude": 47.66389
+      },
+      "address": {
+        "countryName": "IRAQ",
+        "countryCode": "IQ",
+        "regionCode": "MEAST"
+      },
+      "timeZone": {
+        "offSet": "+03:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 0
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "MYKONOS",
+      "iataCode": "JMK",
+      "geoCode": {
+        "latitude": 37.435,
+        "longitude": 25.34806
+      },
+      "address": {
+        "countryName": "GREECE",
+        "countryCode": "GR",
+        "regionCode": "EUROP"
+      },
+      "timeZone": {
+        "offSet": "+03:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 0
+      }
+    },
+    {
+      "type": "location",
+      "subtype": "city",
+      "name": "AL NAJAF",
+      "iataCode": "NJF",
+      "geoCode": {
+        "latitude": 31.99139,
+        "longitude": 44.39612
+      },
+      "address": {
+        "countryName": "IRAQ",
+        "countryCode": "IQ",
+        "regionCode": "MEAST"
+      },
+      "timeZone": {
+        "offSet": "+03:00",
+        "referenceLocalDateTime": "2024-09-28T07:49:54"
+      },
+      "metrics": {
+        "relevance": 0
+      }
+    }
+  ]
+}
