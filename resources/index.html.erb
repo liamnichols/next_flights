@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="MEA Flight Availability" />
+  <meta property="og:description" content="Available flights from BEY to anywhere" />
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-zinc-50 text-gray-700">
@@ -30,10 +32,10 @@
               MEA Flight Availability
             </h1>
             <p>
-              Direct flight availability from Beirut Rafic Hariri International Airport (BEY) with Middle East Airlines (MEA) between <span class="font-bold"><%= dates.first %> and <%= dates.last %></span>.
+              Showing all available MEA flights from Beirut between <span class="font-bold text-emerald-400"><%= dates.first %></span> and <span class="font-bold text-emerald-400"><%= dates.last %></span>.
             </p>
             <p>
-              Last Updated <span class="font-bold"><%= updated_date %> at <%= updated_time %></span> (local time)
+              Last updated on <span class="font-bold"><%= updated_date %></span> at <span class="font-bold"><%= updated_time %></span> (Beirut time)
             </p>
             <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
               <table class="w-full text-sm text-left rtl:text-right text-gray-500">
@@ -103,6 +105,19 @@
                 </tbody>
               </table>
             </div>
+            <blockquote class="p-1 my-1 border-s-4 border-gray-300">
+              <p class="italic text-gray-500 text-xs">
+                <span class="font-bold">Disclaimer</span>
+                <br/>
+                This information is refreshed periodically and may be outdated.
+                <br/>
+                Only use this data as a reference to assist with finding flights on <a class="inline font-medium underline underline-offset-2 decoration-600 decoration-solid hover:no-underline" target="_blank" href="https://mea.com.lb">mea.com.lb</a>.
+                <br/>
+                This site is not affiliated with Middle East Airlines – Air Liban S.A.L. in any way.
+                <br/>
+                You may need to scroll to reveal all of the information in the table above.
+              </p>
+            </blockquote>
           </div>
         </div>
       </div>
