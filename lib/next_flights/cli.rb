@@ -1,7 +1,7 @@
 require_relative "amadeus/client"
 require_relative "destination"
+require_relative "generator"
 require "tzinfo"
-require "erb"
 
 module NextFlights
   class CLI
@@ -18,13 +18,13 @@ module NextFlights
       puts "Found #{offers.length} offers"
 
       puts "Generating html..."
-      puts "```html"
-      puts html.strip
-      puts "```"
+      generator = Generator.new(offers:, dates:, updated_at:)
+      %i(en ar).each do |locale|
+        filename, html = generator.generate(locale:)
+        filepath = File.join(output_path, filename)
 
-      if output_path
-        puts "Writing html to '#{output_path}'"
-        File.write(output_path, html)
+        puts "Writing html to '#{filepath}'"
+        File.write(filepath, html)
       end
     end
 
@@ -78,14 +78,6 @@ module NextFlights
       destinations.each do |destination|
         puts "    - #{destination.to_s}"
       end
-    end
-
-    def updated_date
-      updated_at&.strftime("%Y-%m-%d")
-    end
-
-    def updated_time
-      updated_at&.strftime("%H:%M")
     end
   end
 end

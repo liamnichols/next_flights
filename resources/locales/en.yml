@@ -1,0 +1,29 @@
+en:
+  index:
+    seo:
+      title: MEA Flight Availability
+      description: Available flights from BEY to anywhere
+    donate:
+      message: The Lebanese Red Cross are working tirelessly on the ground - %{link}
+      link: Support them now
+    summary: Showing all available MEA flights from Beirut between %{earliest_date} and %{latest_date}
+    last_updated: Last updated on %{updated_date} at %{updated_time} (Beirut time)
+    table:
+      heading:
+        destination: Destination
+        date: Date
+        time: Time
+        flight: Flight
+        seats: Seats
+        price: Price
+        cabin: Cabin
+      body:
+        no_results: There were no tickets available during the last check, try again later.
+    disclaimer:
+      title: Disclaimer
+      point:
+        outdated: This information is refreshed periodically and may be outdated.
+        reference: Only use this data as a reference to assist with finding flights on %{link}.
+        no_affiliation: This site is not affiliated with Middle East Airlines – Air Liban S.A.L. in any way.
+        scroll: You may need to scroll to reveal all of the information in the table above.
+    change_language: Change Language

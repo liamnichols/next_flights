@@ -23,30 +23,37 @@ jobs:
     env:
       DIST_DIR: dist
     steps:
+    # Checkout Repo
     - name: Checkout Repo
       uses: actions/checkout@v4
+
+    # Setup Dependencies
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
         bundler-cache: true
-    - name: Update Site
-      run: |
-        bin/next_flights "${{ env.DIST_DIR }}/index.html"
-      env:
-        API_KEY: ${{ secrets.API_KEY }}
-        API_SECRET: ${{ secrets.API_SECRET }}
-        BASE_URL: ${{ vars.BASE_URL }}
     - uses: actions/setup-node@v4
       with:
         node-version: 20
         cache: 'npm'
-    - name: Install Nide Dependencies
+    - name: Install Node Dependencies
       run: npm install
-    - name: Generate CSS
-      run: npx tailwindcss -i "resources/style.css" -o "${{ env.DIST_DIR }}/style.css"
     - name: Setup Pages
       uses: actions/configure-pages@v5
-    - name: Upload Artifact
+
+    # Generate Site
+    - name: Generate CSS
+      run: npx tailwindcss -i "resources/style.css" -o "${{ env.DIST_DIR }}/style.css"
+    - name: Generate Site
+      run: |
+        bin/next_flights "${{ env.DIST_DIR }}"
+      env:
+        API_KEY: ${{ secrets.API_KEY }}
+        API_SECRET: ${{ secrets.API_SECRET }}
+        BASE_URL: ${{ vars.BASE_URL }}
+
+    # Deploy Site
+    - name: Upload Site
       uses: actions/upload-pages-artifact@v3
       with:
         path: ${{ env.DIST_DIR }}

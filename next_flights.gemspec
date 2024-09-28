@@ -33,4 +33,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "json", "~> 2.7"
   spec.add_dependency "tzinfo", "~> 2.0"
   spec.add_dependency "erb", "~> 4.0"
+  spec.add_dependency "i18n", "~> 1.14"
 end

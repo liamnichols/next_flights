@@ -1,12 +1,14 @@
 <!doctype html>
-<html>
+<html lang="<%= current_page[:locale] %>" dir="<%= current_page[:dir] %>">
 <head>
-  <title>MEA Flight Availability</title>
+  <title><%= t("index.seo.title") %></title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta property="og:title" content="MEA Flight Availability" />
-  <meta property="og:description" content="Available flights from BEY to anywhere" />
+  <meta property="og:title" content="<%= t("index.seo.title") %>" />
+  <meta property="og:description" content="<%= t("index.seo.description") %>" />
   <link href="./style.css" rel="stylesheet">
+  <link rel="alternate" href="<%= default_page[:href] %>" hreflang="x-default" />
+  <link rel="alternate" hreflang="<%= alternative_page[:locale] %>" href="<%= alternative_page[:href] %>" />
 </head>
 <body class="bg-zinc-50 text-gray-700">
   <main>
@@ -19,49 +21,48 @@
                   </svg>
               </span>
               <span>
-                The Lebanese Red Cross are working tirelessly on the ground - <a class="inline font-medium underline underline-offset-2 decoration-600 decoration-solid hover:no-underline" target="_blank" href="https://donate.redcrossredcrescent.org/lb/supportLRC">Support them now</a>
+                <%= t("index.donate.message", link: donate_link) %>
               </span>
           </p>
       </div>
     </div>
-
     <div class="py-14">
       <div class="container flex flex-col mx-auto py-10 px-5 md:max-w-2xl">
         <div class="container flex">
           <div class="container mx-auto space-y-4">
             <h1 class="text-5xl font-bold">
-              MEA Flight Availability
+              <%= t("index.seo.title") %>
             </h1>
             <p>
-              Showing all available MEA flights from Beirut between <span class="font-bold text-emerald-400"><%= dates.first %></span> and <span class="font-bold text-emerald-400"><%= dates.last %></span>.
+              <%= t("index.summary", earliest_date: span(dates.first, class: "font-bold text-emerald-400"), latest_date: span(dates.last, class: "font-bold text-emerald-400")) %>
             </p>
             <p>
-              Last updated on <span class="font-bold"><%= updated_date %></span> at <span class="font-bold"><%= updated_time %></span> (Beirut time)
+              <%= t("index.last_updated", updated_date: span(updated_date), updated_time: span(updated_time)) %>
             </p>
             <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
-              <table class="w-full text-sm text-left rtl:text-right text-gray-500">
+              <table dir="ltr" class="w-full text-sm text-left rtl:text-right text-gray-500">
                 <thead class="text-xs text-gray-700 uppercase bg-gray-200">
                   <tr>
                     <th scope="col" class="px-3 py-2">
-                      Destination
+                      <%= t("index.table.heading.destination") %>
                     </th>
                     <th scope="col" class="px-3 py-2">
-                      Date
+                      <%= t("index.table.heading.date") %>
                     </th>
                     <th scope="col" class="px-3 py-2">
-                      Time
+                      <%= t("index.table.heading.time") %>
                     </th>
                     <th scope="col" class="px-3 py-2">
-                      Flight
+                      <%= t("index.table.heading.flight") %>
                     </th>
                     <th scope="col" class="px-3 py-2">
-                      Seats
+                      <%= t("index.table.heading.seats") %>
                     </th>
                     <th scope="col" class="px-3 py-2">
-                      Price
+                      <%= t("index.table.heading.price") %>
                     </th>
                     <th scope="col" class="px-3 py-2">
-                      Cabin
+                      <%= t("index.table.heading.cabin") %>
                     </th>
                   </tr>
                 </thead>
@@ -69,7 +70,7 @@
                   <% if offers.empty? %>
                     <tr class="odd:bg-white even:bg-gray-50 border-b">
                       <td scope="row" class="px-3 py-4 font-medium text-gray-900 whitespace-nowrap text-center" colspan="7">
-                        There appears to be no ticket availability, please check the airline directly.
+                        <%= t("index.table.body.no_results") %>
                       </td>
                     </tr>
                   <% else %>
@@ -108,17 +109,22 @@
             </div>
             <blockquote class="p-1 my-1 border-s-4 border-gray-300">
               <p class="italic text-gray-500 text-xs">
-                <span class="font-bold">Disclaimer</span>
+                <span class="font-bold"><%= t("index.disclaimer.title") %></span>
                 <br/>
-                This information is refreshed periodically and may be outdated.
+                <%= t("index.disclaimer.point.outdated") %>
                 <br/>
-                Only use this data as a reference to assist with finding flights on <a class="inline font-medium underline underline-offset-2 decoration-600 decoration-solid hover:no-underline" target="_blank" href="https://mea.com.lb">mea.com.lb</a>.
+                <%= t("index.disclaimer.point.reference", link: mea_link) %>
                 <br/>
-                This site is not affiliated with Middle East Airlines – Air Liban S.A.L. in any way.
+                <%= t("index.disclaimer.point.no_affiliation") %>
                 <br/>
-                You may need to scroll to reveal all of the information in the table above.
+                <%= t("index.disclaimer.point.scroll") %>
               </p>
             </blockquote>
+            <p>
+              <%= link_to t("index.change_language"), alternative_page[:href],
+                  target: "",
+                  class: "inline font-medium underline underline-offset-2 decoration-600 decoration-solid hover:no-underline" %>
+            </p>
           </div>
         </div>
       </div>
