@@ -1,1 +1,29 @@
-ar: {}
+ar:
+  index:
+    seo:
+      title: رحلات MEA المتوفرة
+      description: جميع الرّحلات المتوفرة من بيروت
+    donate:
+      message: The Lebanese Red Cross are working tirelessly on the ground - %{link}
+      link: Support them now
+    summary: جميع رحلات MEA المتوفرة من بيروت بين %{earliest_date} و %{latest_date}
+    last_updated: آخر تحديث في %{updated_date}، %{updated_time} بتوقيت بيروت
+    table:
+      heading:
+        destination: الوجهة
+        date: التّاريخ
+        time: التّاريخ
+        flight: رقم الرّحلة
+        seats: عدد المقاعد
+        price: السّعر
+        cabin: الدّرجة
+      body:
+        no_results: لا توجد رحلات في هذا الوقت، يرجى المحاولة لاحقا.
+    disclaimer:
+      title: 'تنويه:'
+      point:
+        outdated: يتم تحديث هذه المعلومات بشكل دوري وقد تكون قديمة.
+        reference: استخدم هذه البيانات فقط كمرجع للمساعدة في العثور على رحلات على %{link}.
+        no_affiliation: هذا الموقع غير مرتبط بشركة طيران الشرق الأوسط – Air Liban S.A.L بأي شكل من الأشكال.
+        scroll: قد تحتاج إلى تحريك الشاشة أفقيا لرؤية جميع المعلومات في الجدول أعلاه.
+    change_language: تغيير اللّغة

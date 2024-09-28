@@ -121,7 +121,7 @@
               </p>
             </blockquote>
             <p>
-              <%= link_to t("index.change_language"), alternative_page[:href],
+              <%= link_to t("index.change_language", locale: alternative_page[:locale]), alternative_page[:href],
                   target: "",
                   class: "inline font-medium underline underline-offset-2 decoration-600 decoration-solid hover:no-underline" %>
             </p>
