@@ -36,6 +36,14 @@ jobs:
         API_KEY: ${{ secrets.API_KEY }}
         API_SECRET: ${{ secrets.API_SECRET }}
         BASE_URL: ${{ vars.BASE_URL }}
+    - uses: actions/setup-node@v4
+      with:
+        node-version: 20
+        cache: 'npm'
+    - name: Install Nide Dependencies
+      run: npm install
+    - name: Generate CSS
+      run: npx tailwindcss -i "resources/style.css" -o "${{ env.DIST_DIR }}/style.css"
     - name: Setup Pages
       uses: actions/configure-pages@v5
     - name: Upload Artifact

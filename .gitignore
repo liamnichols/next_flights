@@ -13,3 +13,7 @@
 # Dotenv
 .env
 .env.test
+
+# Node
+
+/node_modules/
